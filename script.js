@@ -60,3 +60,40 @@ if (peso < 40) {
 } else if (peso > 71) {
 	alert('La persona tiene sobrepeso');
 }*/
+/*EJERCICIO6. Dado un numero entre 1 y 7 escriba su correspondiente día de la semana si:
+Dia 1 lunes
+Dia 2 martes
+Dia 3 miercoles
+Dia 4 jueves
+Dia 5 viernes
+Dia 6 sabato
+Dia 7 domingo
+Si se escribe otro numero diferente debe salir el mensaje: ESCRIBIO UN NÚMERO FUERA DEL RANGO. ESCRIBA UN NUMERO ENTRE 1 Y 7*/
+
+/*let num=parseFloat(prompt("Ingrese un numero entre 1 y 7"));
+    switch (numero) {
+		case 1:
+			alert('Dia 1 - Lunes');
+			break;
+		case 2:
+			alert('Dia 2 - Martes');
+			break;
+		case 3:
+			alert('Dia 3 - Miercoles');
+			break;
+		case 4:
+			alert('Dia 4 - Jueves');
+			break;
+		case 5:
+			alert('Dia 5 - Viernes');
+			break;
+		case 6:
+			alert('Dia 6 - Sábado');
+			break;
+		case 7:
+			alert('Dia 7 - Domingo');
+			break;
+            default:
+            alert('ESCRIBíO UN NÚMERO FUERA DEL RANGO. ESCRIBA UN NUMERO ENTRE 1 Y 7');
+            break;
+	}*/
