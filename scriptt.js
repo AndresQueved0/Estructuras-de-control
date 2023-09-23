@@ -54,10 +54,9 @@ let peso = parseFloat(prompt('Ingrese su peso en kilogramos'));
 
 if (peso < 40) {
 	alert('Persona baja de peso');
-} else if (peso >= 40 + peso >= 70) {
+} else if ((peso >= 40, peso <= 70)) {
 	alert('La persona tiene peso promedio');
-} else (peso => 70);
-alert('La persona tiene sobrepeso');
+} else alert('La persona tiene sobrepeso');
 /*
 let peso = parseFloat(prompt('Ingrese su peso en kilogramos'));
 
