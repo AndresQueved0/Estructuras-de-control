@@ -189,6 +189,18 @@ let num2=prompt("Digite el segundo número");
 
 /*EJERCICIO 13*/
 
+/*EJERCICIO 17*/
+
+let num = parseFloat(prompt("ingrese un número"));
+
+if (num<10) {
+    alert("Es un numero menor que 10");
+} else if  (num>10 && num<20) {
+    alert("Es un numero entre 10 y 20");
+} else {
+    alert("Es un numero mayor que 20");
+}
+
 /*EJERCICIO 19
 
 let usuario = prompt("Escriba su usuario");
