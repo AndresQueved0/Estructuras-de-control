@@ -212,3 +212,5 @@ if (edad >= 18 && genero == 'masculino') {
 	alert('No es elegible para el servicio militar');
 }
 */
+
+ola
