@@ -185,13 +185,51 @@ let num2=prompt("Digite el segundo número");
         multiplicación=parseInt(num1) * parseInt(num2);
             alert("La multiplicación es: "+multiplicación);
     }
+
+
+let num1 = parseFloat(prompt("Enter the first number:"));
+let num2 = parseFloat(prompt("Enter the second number:"));
+let operator = prompt("Enter an operator (+, -, *, /):");
+
+switch (operator) {
+  case "+":
+    alert(num1 + num2);
+    break;
+  case "-":
+    alert(num1 - num2);
+    break;
+  case "*":
+    alert(num1 * num2);
+    break;
+  case "/":
+    alert(num1 / num2);
+    break;
+  default:
+    alert("Invalid operator");
+    break;
+}
 */
 
 /*EJERCICIO 13*/
 
 /*EJERCICIO 17*/
 
-let num = parseFloat(prompt("ingrese un número"));
+/*let figura= prompt("seleccione una figura, triangulo o cuadrado");
+if (figura == "triangulo") {
+    let base = parseInt(prompt("ingrese la base"));
+    let altura = parseInt(prompt("ingrese la altura"));
+    let area = (base * altura) / 2;
+    alert("El area del triangulo es: " + area);
+} else {
+    let lado = parseInt(prompt("Ingrese el lado"))
+    let cuadrado = (lado * lado);
+    alert("El area del triangulo es: " + cuadrado);
+}
+*/
+
+/*EJERCICIO 18*/
+
+/*let num = parseFloat(prompt("ingrese un número"));
 
 if (num<10) {
     alert("Es un numero menor que 10");
@@ -200,6 +238,8 @@ if (num<10) {
 } else {
     alert("Es un numero mayor que 20");
 }
+*/
+
 
 /*EJERCICIO 19
 
@@ -225,4 +265,3 @@ if (edad >= 18 && genero == 'masculino') {
 }
 */
 
-ola
