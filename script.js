@@ -186,3 +186,29 @@ let num2=prompt("Digite el segundo número");
             alert("La multiplicación es: "+multiplicación);
     }
 */
+
+/*EJERCICIO 13*/
+
+/*EJERCICIO 19
+
+let usuario = prompt("Escriba su usuario");
+let pass = parseInt(prompt("Escriba su contraseña"));
+
+if(usuario == "admin" && pass == 12345) {
+    alert ("Acceso concedido")
+} else {
+    alert("Acceso denegado")
+}
+*/
+
+/*EJERCICIO 20
+
+let genero = prompt('Escriba su genero');
+let edad = parseInt(prompt('Escriba su edad'));
+
+if (edad >= 18 && genero == 'masculino') {
+	alert('Es elegible para el servicio militar');
+} else {
+	alert('No es elegible para el servicio militar');
+}
+*/
